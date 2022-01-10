@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(./img/music.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #707070;
+    border-radius: 6px;
+  }
+.big {
+    background-color: rgba(63, 63, 63, 0.966);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.big pre{
+    font-size: 96px;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+    position: absolute;
+    right: 10px;
+}
+
+header p {
+    font-size: 25px;
+    font-weight: 500;
+    flex: 1;
+    color: white;
+}
+
+header input {
+    border-radius: 30px;
+    border: 1px solid black;
+    flex: 1;
+    height: 30px;
+    outline: none;
+    padding: 2px;
+}
+.d1{
+    background-image: url('./img/baroque.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clould {
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    height: 1100px;
+}
+.clould p{
+    font-family: 'Rye', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 96px;
+    margin: 0px;
+    flex: 1;
+    margin: 30px;
+    
+}
+.clould .d1-de{
+    word-break: initial;
+    font-size: 30px;
+    flex: 3;
+    align-self: center;
+    margin: 0px;
+
+}
+.clould{
+    background-color: rgba(233, 189, 108, 0.925);
+}
